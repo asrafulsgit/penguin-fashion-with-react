@@ -4,13 +4,13 @@ import Card from './Others/Card'
 
 const Women_jacket = () => {
   return (
-    <section className='py-2 px-25'>
-          <h1 className='babes text-[48px] text-[#363958] mb-5'>Woman Jacket</h1>
-          <div className='flex gap-4'>
+    <section className='py-2 px-5 lg:px-20 xl:px-25'>
+          <h1 className='babes text-[32px] lg:text-[48px] text-[#363958] mb-3 lg:mb-5'>Woman Jacket</h1>
+          <div className='flex md:flex-row flex-col gap-4'>
                <Card />
                <Card />
                <Card />
-               <Card />
+               {/* <Card /> */}
           </div>
     </section>
   )

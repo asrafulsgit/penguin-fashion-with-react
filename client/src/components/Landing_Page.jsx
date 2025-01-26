@@ -7,10 +7,10 @@ import Banner from './Banner.jsx';
 const Landing_Page = () => {
   return (
     <>
-      <Nav />
-      <Hero />
-      <Women_jacket />
-      <Men_jacket />
+      {/* <Nav /> */}
+      {/* <Hero /> */}
+      {/* <Women_jacket /> */}
+      {/* <Men_jacket /> */}
       <Banner />
     </>
   )
